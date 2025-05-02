@@ -114,9 +114,9 @@ button {
 .create{
     display: flex;
     flex-direction: row;
-    column-gap: 19rem;
+    column-gap: 2px;
     margin-left: 5rem;
-    margin-top: -10rem;
+    margin-top: -9rem;
 } 
 .create a{
     text-decoration: none;
