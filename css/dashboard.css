@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    
+}
+
+
+
+
+aside{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: #FBFBFB;
+    width: 320px;
+    border-radius: 20px;
+    height: 100%;
+    position: fixed;
+
+}
+
+.logo{
+    display: flex;
+    width: 55%;
+    height: 10rem;
+    /* justify-content: start; */
+    align-items: center;
+    column-gap: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-left: -25px;
+    margin-top: -13rem;
+
+}
+
+.img{
+    top: 0;
+    width: 69.48px;
+    height: 67px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.logos h2{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  font-variation-settings:
+    "wdth" 50; 
+    color: #00302E;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0rem;
+    margin-top: -25rem;
+    align-items: start;
+    width: 100%;
+    /* margin-left: 4rem; */
+    
+}
+
+nav p{
+    margin-left: 5rem;
+    width: 83%;
+    background-color: #FBFBFB;
+    padding: 12px 14px;
+    margin: 12px 12px;
+    border-radius: 5px;
+}
+
+.apc{
+    background-color: #EFEFEF;
+    color: black;
+}
+
+.ap{
+    color: black;
+    background-color: #EFEFEF;
+}
+nav a{
+    
+    text-decoration: none;
+    color: #707070;
+    margin-top: -5rem;
+    row-gap: 1rem;
+    
+}
+
+nav p:hover{
+    background-color: rgb(255,255,255,0.2);
+    
+}
+.bar2 i{
+ 
+    width: 5%;
+    
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border-radius: 5px;
+}
+.menunow{
+    display: none;
+}
+
+.mainnav{
+    width: 100%;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width:300px;
+    background-color: rgb(255,255,255,0.2);
+    box-shadow: -10px 0 10px rgb(255,255,255,0.2);
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+}
+@media(max-width:800px){
+    .mainnav{
+        display:none
+    }
+
+    .menunow{
+        display: block;
+    }
+}
+
+@media(max-width:400px){
+    .menunow{
+        display: block;
+    }
+    .img {
+        display: none;
+    }
+    .logos{
+        display: none;
+    }
+    aside{
+        width: 20%;
+        background-color: white;
+        border-radius: 2px;
+    }
+}
+
+/* main */
+
+
+ main{
+    /* display: flex; */
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 21rem; 
+} 
+
+.section1{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 35rem;
+    align-items: center;
+    text-align: left;
+    right: 0;
+}
+
+.section11{
+    margin-left: 3rem;
+    width: 50%;
+    padding
+}
+.section12{
+    margin-right: 2rem;
+}
+
+/* second section */
+.pics{
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    width:90%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    
+}
+
+.imgs{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.imgs img{
+    width: 100%;
+    height: 100%;
+
+}
+.pics1 {
+    border: 0.3px solid #00302E24;
+    width:240px;
+    height:280px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.pics2 {
+     border: 0.3px solid #00302E24;
+    width:240px;
+    height:280px;
+}
+.pics3 {
+    border: 0.3px solid #00302E24;
+    width:240px;
+    height:280px;
+}
+
+.pics12{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    margin-left: 1.5rem;
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    width:90%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    
+}
+
+.pic1 {
+    border: 0.3px solid #00302E24;
+    width:240px;
+    height:280px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.pic2 {
+     border: 0.3px solid #00302E24;
+    width:240px;
+    height:280px;
+}
+.pic3 {
+    border: 0.3px solid #00302E24;
+    width:240px;
+    height:280px;
+}
